@@ -1,0 +1,81 @@
+{{> Partials/Header }}
+
+<p id="comment-id" hidden>{{ payload.id }}</p>
+
+<div class="comment" comment-id="{{ payload.id }}">
+    {{#if payload.deletedAt}}
+        <p>Comment was deleted on {{ payload.deletedAt }}</p>
+    {{else}}
+        {{#if isAuthenticated}}
+            {{#if payload.isUpvotedByUser}}
+                <button class="comment-upvote-button" comment-id="{{ payload.id }}" upvoted="true"></button>
+            {{else}}
+                <button class="comment-upvote-button" comment-id="{{ payload.id }}" upvoted="false"></button>
+            {{/if}}
+        {{/if}}
+        <p class="comment-votes" comment-id="{{ payload.id }}">{{ payload.votes }}</p>
+        {{#if isAuthenticated}}
+            {{#if payload.isDownvotedByUser}}
+                <button class="comment-downvote-button" comment-id="{{ payload.id }}" downvoted="true"></button>
+            {{else}}
+                <button class="comment-downvote-button" comment-id="{{ payload.id }}" downvoted="false"></button>
+            {{/if}}
+            {{!-- {{#if isBookmarkedByUser}}
+                <button id="comment-bookmark-button" bookmarked="true">Unbookmark Comment</button>
+            {{else}}
+                <button id="comment-bookmark-button" bookmarked="false">Bookmark Comment</button>
+            {{/if}} --}}
+        {{/if}}
+        <a href="{{ path 'user/{id}' payload.user.id }}">{{ payload.user.username }}</a>
+        <p>{{ payload.createdAtText }}</p>
+        <p>{{ payload.content }}</p>
+        {{#if isAuthenticated}}
+            <a href="{{ path 'comment/{id}/edit' payload.id }}">Edit Comment</a>
+            <form action="{{ path 'comment/{id}' payload.id }}" method="POST" class="delete-comment-form">
+                <input type="hidden" name="method" value="DELETE">
+                <button type="submit">Delete Comment</button>
+            </form>
+        {{/if}}
+    {{/if}}
+</div>
+{{#each replies}}
+    <div class="comment" comment-id="{{ id }}">
+    {{#if deletedAt}}
+        <p>Comment was deleted on {{ deletedAt }}</p>
+    {{else}}
+        {{#if ../isAuthenticated}}
+            {{#if isUpvotedByUser}}
+                <button class="comment-upvote-button" comment-id="{{ id }}" upvoted="true"></button>
+            {{else}}
+                <button class="comment-upvote-button" comment-id="{{ id }}" upvoted="false"></button>
+            {{/if}}
+        {{/if}}
+        <p class="comment-votes" comment-id="{{ id }}">{{ votes }}</p>
+        {{#if ../isAuthenticated}}
+            {{#if isDownvotedByUser}}
+                <button class="comment-downvote-button" comment-id="{{ id }}" downvoted="true"></button>
+            {{else}}
+                <button class="comment-downvote-button" comment-id="{{ id }}" downvoted="false"></button>
+            {{/if}}
+            {{!-- {{#if isBookmarkedByUser}}
+                <button class="comment-bookmark-button" bookmarked="true">Unbookmark Comment</button>
+            {{else}}
+                <button class="comment-bookmark-button" bookmarked="false">Bookmark Comment</button>
+            {{/if}} --}}
+        {{/if}}
+        <a href="{{ path 'user/{id}' user.id }}">{{ user.username }}</a>
+        <p>{{ createdAtText }}</p>
+        <p>{{ content }}</p>
+        <a href="{{ path 'comment/{id}' id }}">Permalink</a>
+        {{#if ../isAuthenticated}}
+            <a href="{{ path 'comment/{id}/edit' id }}">Edit Comment</a>
+            <form action="{{ path 'comment/{id}' id }}" method="POST" class="delete-comment-form">
+                <input type="hidden" name="method" value="DELETE">
+                <button type="submit">Delete Comment</button>
+            </form>
+        {{/if}}
+    {{/if}}
+    </div>
+{{/each}}
+ 
+{{> Partials/Footer }}

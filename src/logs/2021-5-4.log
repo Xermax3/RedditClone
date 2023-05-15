@@ -1,0 +1,552 @@
+[2021-5-4 18:17:41] 📨 >> GET / ""
+[2021-5-4 18:17:53] 💌 << 200 OK
+[2021-5-4 18:17:54] 📨 >> GET /user/1 ""
+[2021-5-4 18:17:57] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:17:57] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:17:57] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:18:29] 📨 >> GET /userr ""
+[2021-5-4 18:18:29] 💌 << 404 NOT_FOUND
+[2021-5-4 18:18:29] 📨 >> GET /user/1 ""
+[2021-5-4 18:18:30] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:18:30] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:18:30] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:18:44] 📨 >> GET / ""
+[2021-5-4 18:18:44] 💌 << 200 OK
+[2021-5-4 18:18:44] 📨 >> GET /user/1 ""
+[2021-5-4 18:18:45] 📨 >> GET /auth/register ""
+[2021-5-4 18:18:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:18:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:18:45] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:18:45] 💌 << 200 OK
+[2021-5-4 18:18:45] 📨 >> GET /user/1 ""
+[2021-5-4 18:18:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:18:45] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:18:45] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:18:47] 📨 >> POST /user/%7Bid%7D {
+	"username": "Isai10",
+	"email": "Ara92@gmail.com",
+	"password": "QSit5MGQV4QkBbo"
+}
+[2021-5-4 18:18:48] 💌 << 303 SEE_OTHER
+[2021-5-4 18:18:48] 📨 >> GET /auth/login ""
+[2021-5-4 18:18:48] 💌 << 200 OK
+[2021-5-4 18:18:48] 📨 >> GET /user/1 ""
+[2021-5-4 18:18:48] 💌 << 200 OK
+[2021-5-4 18:18:49] 📨 >> POST /auth/login {
+	"email": "Ara92@gmail.com",
+	"password": "QSit5MGQV4QkBbo"
+}
+[2021-5-4 18:18:49] 💌 << 303 SEE_OTHER
+[2021-5-4 18:18:49] 📨 >> GET /user/1 ""
+[2021-5-4 18:18:49] 💌 << 200 OK
+[2021-5-4 18:18:50] 📨 >> GET /user/1 ""
+[2021-5-4 18:18:50] 💌 << 200 OK
+[2021-5-4 18:19:6] 📨 >> GET / ""
+[2021-5-4 18:19:6] 💌 << 200 OK
+[2021-5-4 18:19:6] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:6] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:6] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:7] 📨 >> GET /auth/register ""
+[2021-5-4 18:19:7] 💌 << 200 OK
+[2021-5-4 18:19:7] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:7] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:7] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:7] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:8] 📨 >> POST /user/%7Bid%7D {
+	"username": "",
+	"email": "bulbasaur@pokemon.com",
+	"password": "Grass123"
+}
+[2021-5-4 18:19:8] UserException: Cannot create User: Missing username.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:20:10)
+    at UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:31)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:19:8] UserException: Cannot create User: Missing username.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:20:10)
+    at UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:31)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:19:8] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:8] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:9] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:9] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:9] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:24] 📨 >> GET / ""
+[2021-5-4 18:19:24] 💌 << 200 OK
+[2021-5-4 18:19:25] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:25] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:25] 📨 >> GET /auth/register ""
+[2021-5-4 18:19:25] 💌 << 200 OK
+[2021-5-4 18:19:25] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:25] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:25] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:25] 📨 >> POST /user/%7Bid%7D {
+	"username": "Bulbasaur",
+	"email": "",
+	"password": "Grass123"
+}
+[2021-5-4 18:19:25] UserException: Cannot create User: Missing email.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:22:10)
+    at UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:31)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:19:25] UserException: Cannot create User: Missing email.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:22:10)
+    at UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:31)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:19:26] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:26] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:26] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:26] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:26] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:41] 📨 >> GET / ""
+[2021-5-4 18:19:41] 💌 << 200 OK
+[2021-5-4 18:19:42] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:42] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:42] 📨 >> GET /auth/register ""
+[2021-5-4 18:19:42] 💌 << 200 OK
+[2021-5-4 18:19:42] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:42] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:42] 📨 >> POST /user/%7Bid%7D {
+	"username": "Bulbasaur",
+	"email": "bulbasaur@pokemon.com",
+	"password": ""
+}
+[2021-5-4 18:19:42] UserException: Cannot create User: Missing password.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:24:10)
+    at UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:31)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:19:42] UserException: Cannot create User: Missing password.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:24:10)
+    at UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:31)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:19:42] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:42] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:42] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:42] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:56] 📨 >> GET / ""
+[2021-5-4 18:19:57] 💌 << 200 OK
+[2021-5-4 18:19:57] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:57] 💌 << 200 OK
+[2021-5-4 18:19:57] 📨 >> GET /auth/register ""
+[2021-5-4 18:19:57] 💌 << 200 OK
+[2021-5-4 18:19:57] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:57] 💌 << 200 OK
+[2021-5-4 18:19:57] 📨 >> POST /user/%7Bid%7D {
+	"username": "Bulbasaur1",
+	"email": "bulbasaur@pokemon.com",
+	"password": "Grass123"
+}
+[2021-5-4 18:19:57] UserException: Cannot create User: Duplicate email.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:28:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:20)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:57] UserException: Cannot create User: Duplicate email.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:28:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:20)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:19:58] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:19:58] 📨 >> GET /user/1 ""
+[2021-5-4 18:19:58] 💌 << 200 OK
+[2021-5-4 18:20:13] 📨 >> GET / ""
+[2021-5-4 18:20:14] 💌 << 200 OK
+[2021-5-4 18:20:14] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:14] 💌 << 200 OK
+[2021-5-4 18:20:14] 📨 >> GET /auth/register ""
+[2021-5-4 18:20:14] 💌 << 200 OK
+[2021-5-4 18:20:14] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:14] 💌 << 200 OK
+[2021-5-4 18:20:15] 📨 >> POST /user/%7Bid%7D {
+	"username": "Bulbasaur",
+	"email": "bulbasaur1@pokemon.com",
+	"password": "Grass123"
+}
+[2021-5-4 18:20:15] UserException: Cannot create User: Duplicate username.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:26:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:20)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:20:15] UserException: Cannot create User: Duplicate username.
+    at Function.create (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:26:10)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async UserController.new (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:67:20)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:20:15] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:20:15] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:15] 💌 << 200 OK
+[2021-5-4 18:20:30] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:31] 💌 << 200 OK
+[2021-5-4 18:20:31] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:31] 💌 << 200 OK
+[2021-5-4 18:20:41] 📨 >> GET /user/20 ""
+[2021-5-4 18:20:41] UserException: Cannot retrieve User: User does not exist with ID 20.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:20:41] UserException: Cannot retrieve User: User does not exist with ID 20.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:20:41] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:20:41] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:20:41] UserException: Cannot retrieve User: User does not exist with ID 1.
+    at UserController.show (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:82:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:20:41] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:20:48] 📨 >> GET / ""
+[2021-5-4 18:20:48] 💌 << 200 OK
+[2021-5-4 18:20:48] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:48] 💌 << 200 OK
+[2021-5-4 18:20:48] 📨 >> GET /auth/login ""
+[2021-5-4 18:20:48] 💌 << 200 OK
+[2021-5-4 18:20:49] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:49] 💌 << 200 OK
+[2021-5-4 18:20:49] 📨 >> POST /auth/login {
+	"email": "Dalton.Medhurst@hotmail.com",
+	"password": "k1XKkbPDUvncZa2"
+}
+[2021-5-4 18:20:49] 💌 << 303 SEE_OTHER
+[2021-5-4 18:20:49] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:49] 💌 << 200 OK
+[2021-5-4 18:20:49] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:49] 💌 << 200 OK
+[2021-5-4 18:20:49] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:49] 💌 << 200 OK
+[2021-5-4 18:20:49] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:49] 💌 << 200 OK
+[2021-5-4 18:20:50] 📨 >> PUT /user/1 {
+	"method": "PUT",
+	"username": "Idella62",
+	"email": "Alexandria.Franecki@gmail.com",
+	"password": "DmU8g_DtWd9Sh0W"
+}
+[2021-5-4 18:20:50] 💌 << 303 SEE_OTHER
+[2021-5-4 18:20:50] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:50] 💌 << 200 OK
+[2021-5-4 18:20:50] 📨 >> GET /user/1 ""
+[2021-5-4 18:20:50] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> GET / ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> GET /auth/login ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> POST /auth/login {
+	"email": "Geovanni.Brown@hotmail.com",
+	"password": "H1D_UUh5q5hfJdf"
+}
+[2021-5-4 18:21:12] 💌 << 303 SEE_OTHER
+[2021-5-4 18:21:12] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:12] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:12] 💌 << 200 OK
+[2021-5-4 18:21:13] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:13] 💌 << 200 OK
+[2021-5-4 18:21:13] 📨 >> PUT /user/1 {
+	"method": "PUT",
+	"username": "",
+	"email": "",
+	"password": ""
+}
+[2021-5-4 18:21:13] UserException: Cannot update User: No update parameters were provided.
+    at UserController.edit (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:109:19)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:21:13] UserException: Cannot update User: No update parameters were provided.
+    at UserController.edit (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/UserController.js:109:19)
+    at UserController.doAction (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/Controller.js:9:15)
+    at Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:42)
+    at App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:38)
+    at Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:12)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-5-4 18:21:13] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:21:13] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:13] 💌 << 200 OK
+[2021-5-4 18:21:27] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:27] 💌 << 200 OK
+[2021-5-4 18:21:27] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:27] 💌 << 200 OK
+[2021-5-4 18:21:38] 📨 >> GET / ""
+[2021-5-4 18:21:38] 💌 << 200 OK
+[2021-5-4 18:21:38] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:38] 💌 << 200 OK
+[2021-5-4 18:21:38] 📨 >> GET /auth/login ""
+[2021-5-4 18:21:38] 💌 << 200 OK
+[2021-5-4 18:21:38] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:38] 💌 << 200 OK
+[2021-5-4 18:21:38] 📨 >> POST /auth/login {
+	"email": "Jorge28@hotmail.com",
+	"password": "dXwStmyq09jy3_p"
+}
+[2021-5-4 18:21:38] 💌 << 303 SEE_OTHER
+[2021-5-4 18:21:38] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:38] 💌 << 200 OK
+[2021-5-4 18:21:38] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:38] 💌 << 200 OK
+[2021-5-4 18:21:39] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:39] 💌 << 200 OK
+[2021-5-4 18:21:39] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:39] 💌 << 200 OK
+[2021-5-4 18:21:39] 📨 >> DELETE /user/1 {
+	"method": "DELETE"
+}
+[2021-5-4 18:21:39] 💌 << 303 SEE_OTHER
+[2021-5-4 18:21:39] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:39] 💌 << 200 OK
+[2021-5-4 18:21:40] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:40] 💌 << 200 OK
+[2021-5-4 18:21:48] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:48] 💌 << 200 OK
+[2021-5-4 18:21:48] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:48] 💌 << 200 OK
+[2021-5-4 18:21:59] 📨 >> GET / ""
+[2021-5-4 18:21:59] 💌 << 200 OK
+[2021-5-4 18:21:59] 📨 >> GET /user/1 ""
+[2021-5-4 18:21:59] 💌 << 200 OK
+[2021-5-4 18:21:59] 📨 >> GET /auth/login ""
+[2021-5-4 18:21:59] 💌 << 200 OK
+[2021-5-4 18:21:59] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:0] 💌 << 200 OK
+[2021-5-4 18:22:0] 📨 >> POST /auth/login {
+	"email": "Rebecca.Balistreri@hotmail.com",
+	"password": "c8CVUqG6e9Dp9pJ"
+}
+[2021-5-4 18:22:0] 💌 << 303 SEE_OTHER
+[2021-5-4 18:22:0] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:0] 💌 << 200 OK
+[2021-5-4 18:22:0] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:0] 💌 << 200 OK
+[2021-5-4 18:22:0] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:0] 💌 << 200 OK
+[2021-5-4 18:22:0] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:0] 💌 << 200 OK
+[2021-5-4 18:22:0] 📨 >> DELETE /user/1 {
+	"method": "DELETE"
+}
+[2021-5-4 18:22:1] 💌 << 303 SEE_OTHER
+[2021-5-4 18:22:1] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:1] 💌 << 200 OK
+[2021-5-4 18:22:1] 📨 >> GET / ""
+[2021-5-4 18:22:1] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:1] 💌 << 200 OK
+[2021-5-4 18:22:1] 💌 << 200 OK
+[2021-5-4 18:22:1] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:1] 💌 << 200 OK
+[2021-5-4 18:22:1] 📨 >> GET /auth/login ""
+[2021-5-4 18:22:1] 💌 << 200 OK
+[2021-5-4 18:22:1] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:1] 💌 << 200 OK
+[2021-5-4 18:22:1] 📨 >> POST /auth/login {
+	"email": "Rebecca.Balistreri@hotmail.com",
+	"password": "c8CVUqG6e9Dp9pJ"
+}
+[2021-5-4 18:22:1] AuthException: Cannot log in: User has been deleted.
+    at Function.logIn (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:151:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.logIn (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:79:20)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:22:1] AuthException: Cannot log in: User has been deleted.
+    at Function.logIn (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/models/User.js:151:10)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async AuthController.logIn (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/controllers/AuthController.js:79:20)
+    at async Router.dispatch (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/router/Router.js:56:20)
+    at async App.sendResponse (/home/maxence-roy/web-ii/Assignments/5-Fetch/src/App.js:43:20)
+    at async Server.<anonymous> (/home/maxence-roy/web-ii/Assignments/5-Fetch/server.js:91:2)
+[2021-5-4 18:22:1] 💌 << 400 BAD_REQUEST
+[2021-5-4 18:22:2] 📨 >> GET /user/1 ""
+[2021-5-4 18:22:2] 💌 << 200 OK

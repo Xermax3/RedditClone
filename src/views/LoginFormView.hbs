@@ -1,0 +1,11 @@
+{{>Partials/Header}}
+
+<form action="{{ path 'auth/login' }}" method="POST" id="login-form">
+	<input type="text" name="email" placeholder="Enter Email Address" value="{{ remember }}">
+	<input type="text" name="password" placeholder="Enter Password">
+	<input type="checkbox" name="remember" {{#if remember}}checked{{/if}}>
+	<label for="remember">Remember Email?</label>
+	<button>Submit</button>
+</form>
+
+{{>Partials/Footer}}

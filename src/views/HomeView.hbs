@@ -1,0 +1,41 @@
+{{> Partials/Header }}
+
+<nav>
+    <a href="{{ path 'user/new' }}">Register</a>
+</nav>
+
+{{#if categories}}
+<table id="categories">
+    <tr>
+        <th>Title</th>
+        <th>Date Created</th>
+        <th>Owner</th>
+        <th>Deleted</th>
+    </tr>
+    {{#each categories}}
+    <tr category-id="{{ id }}">
+        <th><a href="{{ path 'category/{id}' id }}">{{ title }}</a></th>
+        <th>{{ createdAt }}</th>
+        <th>{{ user.username }}</th>
+        {{#if deletedAt}}
+        <th>Yes</th>
+        {{else}}
+        <th>No</th>
+        {{/if}}
+    </tr>
+    {{/each}}
+</table>
+{{else}}
+<p>There are no categories yet! Please make one using the form below.</p>
+{{/if}}
+
+{{#if isAuthenticated}}
+<form action="{{ path 'category' }}" method="POST" id="new-category-form">
+    <input type="text" name="userId" placeholder="Enter User ID">
+    <input type="text" name="title" placeholder="Enter Title">
+    <input type="text" name="description" placeholder="Enter Description">
+    <button type="submit">Create Category</button>
+</form>
+{{/if}}
+
+{{> Partials/Footer }}

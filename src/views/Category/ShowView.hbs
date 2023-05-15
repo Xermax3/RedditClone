@@ -1,0 +1,79 @@
+{{> Partials/Header }}
+
+<p id="category-id" hidden>{{ payload.id }}</p>
+<p id="category-title">{{ payload.title }}</p>
+<p id="category-description">{{ payload.description }}</p>
+
+{{#if payload.deletedAt}}
+
+<p>Category was deleted on {{ payload.deletedAt }}</p>
+
+{{else}}
+
+{{#if isAuthenticated}}
+    <a href="{{ path 'category/{id}/edit' payload.id }}">Edit Category</a>
+
+    <form action="{{ path 'category/{id}' payload.id }}" method="POST" id="delete-category-form">
+        <input type="hidden" name="method" value="DELETE">
+        <button type="submit">Delete Category</button>
+    </form>
+
+    <form action="{{ path 'post' }}" method="POST" id="new-post-form">
+        <input type="hidden" name="categoryId" value="{{ payload.id }}">
+        <input type="text" name="title" placeholder="Enter Title">
+        <select name="type">
+            <option value=""></option>
+            <option value="Text">Text</option>
+            <option value="URL">URL</option>
+        </select>
+        <textarea name="content"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+{{/if}}
+
+{{#if posts}}
+    <table id="posts">
+        <tr>
+            <th>Votes</th>
+            <th>Title</th>
+            <th>Date Created</th>
+            <th>Owner</th>
+            <th>Deleted</th>
+        </tr>
+        {{#each posts}}
+        <tr post-id="{{ id }}">
+            <th>
+                {{#if ../isAuthenticated}}
+                    {{#if isUpvotedByUser}}
+                        <button class="post-upvote-button" post-id="{{ id }}" upvoted="true"></button>
+                    {{else}}
+                        <button class="post-upvote-button" post-id="{{ id }}" upvoted="false"></button>
+                    {{/if}}
+                {{/if}}
+                <p class="post-votes" post-id="{{ id }}">{{ votes }}</p>
+                {{#if ../isAuthenticated}}
+                    {{#if isDownvotedByUser}}
+                        <button class="post-downvote-button" post-id="{{ id }}" downvoted="true"></button>
+                    {{else}}
+                        <button class="post-downvote-button" post-id="{{ id }}" downvoted="false"></button>
+                    {{/if}}
+                {{/if}}
+            </th>
+            <th><a href="{{ path 'post/{id}' id }}">{{ title }}</a></th>
+            <th>{{ createdAtText }}</th>
+            <th>{{ user.username }}</th>
+            {{#if deletedAt}}
+            <th>Yes</th>
+            {{else}}
+            <th>No</th>
+            {{/if}}
+        </tr>
+        {{/each}}
+    </table>
+{{else}}
+    <p>There are no posts yet! Please make one using the form above.</p>
+{{/if}}
+
+{{/if}}
+
+{{> Partials/Footer }}

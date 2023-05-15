@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ scripts 'main.js' }}" defer></script>
+    <title>{{ title }}</title>
+</head>
+
+
+<body>
+    ​<header>
+        <nav>
+            <ul>
+                <li><a href="{{ base }}">Home</a></li>
+                {{#if isAuthenticated}}
+                <li><a href="{{ path 'user/{id}' sessionUserId }}">Profile</a></li>
+                <li><a href="{{ path 'auth/logout' }}">Logout</a></li>
+                {{else}}
+                <li><a href="{{ path 'auth/login' }}">Login</a></li>
+                <li><a href="{{ path 'auth/register' }}">Register</a></li>
+                {{/if}}
+            </ul>
+        </nav>
+        <h1>{{#if header}}{{ header }}{{else}}{{ title }}{{/if}}</h1>
+    </header>

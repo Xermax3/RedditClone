@@ -1,0 +1,106 @@
+{{> Partials/Header }}
+
+{{#if payload.deletedAt}}
+
+<p>User was deleted on {{ payload.deletedAt }}</p>
+
+{{else}}
+
+<p id="user-id" hidden>{{ payload.id }}</p>
+<p id="username">{{ payload.username }}</p>
+<p id="email">{{ payload.email }}</p>
+
+<button id="show-user-posts-button">Posts</button>
+<button id="show-user-comments-button">Comments</button>
+<button id="show-user-post-votes-button">Post Votes</button>
+<button id="show-user-comment-votes-button">Comment Votes</button>
+<button id="show-user-post-bookmarks-button">Post Bookmarks</button>
+<button id="show-user-comment-bookmarks-button">Comment Bookmarks</button>
+<table id="user-posts" hidden>
+    <thead>
+        <tr>
+            <th>Votes</th>
+            <th>Title</th>
+            <th>Date Created</th>
+            <th>Written By</th>
+        </tr>
+    </thead>
+    <tbody id="user-posts-body"></tbody>
+</table>
+<table id="user-comments" hidden>
+    <thead>
+        <tr>
+            <th>Votes</th>
+            <th>Content</th>
+            <th>Post Title</th>
+            <th>Date Created</th>
+            <th>Written By</th>
+        </tr>
+    </thead>
+    <tbody id="user-comments-body"></tbody>
+</table>
+<table id="user-post-votes" hidden>
+    <thead>
+        <tr>
+            <th>Votes</th>
+            <th>Title</th>
+            <th>Date Created</th>
+            <th>Written By</th>
+        </tr>
+    </thead>
+    <tbody id="user-post-votes-body"></tbody>
+</table>
+<table id="user-comment-votes" hidden>
+    <thead>
+        <tr>
+            <th>Votes</th>
+            <th>Content</th>
+            <th>Post Title</th>
+            <th>Date Created</th>
+            <th>Written By</th>
+        </tr>
+    </thead>
+    <tbody id="user-comment-votes-body"></tbody>
+</table>
+<table id="user-post-bookmarks" hidden>
+    <thead>
+        <tr>
+            <th>Votes</th>
+            <th>Title</th>
+            <th>Date Created</th>
+            <th>Written By</th>
+        </tr>
+    </thead>
+    <tbody id="user-post-bookmarks-body"></tbody>
+</table>
+<table id="user-comment-bookmarks" hidden>
+    <thead>
+        <tr>
+            <th>Votes</th>
+            <th>Content</th>
+            <th>Post Title</th>
+            <th>Date Created</th>
+            <th>Written By</th>
+        </tr>
+    </thead>
+    <tbody id="user-comment-bookmarks-body"></tbody>
+</table>
+
+{{#if isAuthenticated}}
+    <form action="{{ path 'user/{id}' payload.id }}" method="POST" id="edit-user-form">
+        <input type="hidden" name="method" value="PUT">
+        <input type="text" name="username" placeholder="Enter new username">
+        <input type="text" name="email" placeholder="Enter new email">
+        <input type="text" name="password" placeholder="Enter password">
+        <button type="submit">Edit User</button>
+    </form>
+
+    <form action="{{ path 'user/{id}' payload.id }}" method="POST" id="delete-user-form">
+        <input type="hidden" name="method" value="DELETE">
+        <button type="submit">Delete</button>
+    </form>
+{{/if}}
+
+{{/if}}
+
+{{> Partials/Footer }}

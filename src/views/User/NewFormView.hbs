@@ -1,0 +1,10 @@
+{{> Partials/Header }}
+
+<form action="{{ path 'user/{id}' payload.id }}" method="POST" id="new-user-form">
+    <input type="text" name="username" placeholder="Enter Username">
+    <input type="text" name="email" placeholder="Enter Email Address">
+    <input type="text" name="password" placeholder="Enter Password">
+    <button type="submit">Submit</button>
+</form>
+
+{{> Partials/Footer }}
